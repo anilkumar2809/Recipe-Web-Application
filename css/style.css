@@ -1,0 +1,22 @@
+
+
+h1 { 
+	color:#43a2ca; 
+	font-size:3em; 
+	font-family:Arial; 
+	text-align:center; 
+}
+body {
+	background-color:#e0f3db;
+}
+		
+p {
+	text-align:center; font-family:Arial
+}
+
+table { 
+	border:1px; 
+	width:200px;
+	font-family:Arial
+}
+

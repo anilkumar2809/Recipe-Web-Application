@@ -1,0 +1,44 @@
+# Recipe Extractor Front-End <!-- omit in toc -->
+
+This folder contains the code base for the front-end (or client side) of
+the Recipe Extractor and Storage Applicaton, as well as code for running
+a development environment for working on this code.
+
+- [Installation](#installation)
+- [Source Files](#source-files)
+- [Production Build](#production-build)
+- [Dev Environment](#dev-environment)
+
+## Installation
+
+After downloading the entire git repo, install the dependencies for developing
+and building the front-end project using the command below:
+
+```bash
+npm install
+```
+
+## Source Files
+
+All source files for this project can be found in the `/src` directory.
+
+## Production Build
+
+For production, the React code base is compiled into a single javascript
+bundle using Webpack and Babel. To build this bundle, and save to the
+directory `/dist`, run the following command:
+
+```bash
+npm run build
+```
+
+## Dev Environment
+
+Included in this code base is all the functionality necessary to run the
+frontend in a development server on localhost:8080. All changes to the code
+are refected realtime while in this development environment. To start the
+development environment, run the command below:
+
+```bash
+npm start
+```
